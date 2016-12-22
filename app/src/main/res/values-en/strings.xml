@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Platzigram</string>
+    <string name="hint_username">User</string>
+    <string name="title_activity_reference">Reference</string>
+    <string name="hint_password">Password</string>
+</resources>
