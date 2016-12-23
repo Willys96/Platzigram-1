@@ -25,7 +25,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:background="@drawable/platzigram"
-                android:contentDescription="" />
+                android:contentDescription=""
+                tools:ignore="ContentDescription" />
 
         </RelativeLayout>
 
@@ -39,7 +40,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="@dimen/padding_horizontal_login">
+                android:padding="@dimen/padding_horizontal_login"
+                tools:ignore="ScrollViewSize">
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
@@ -98,7 +100,8 @@
                         android:textStyle="bold"
                         android:textSize="@dimen/textsize_donthaveaccount"
                         android:layout_toRightOf="@+id/dontHaveAccount"
-                        android:onClick="goCreateAccount"/>
+                        android:onClick="goCreateAccount"
+                        tools:ignore="RtlHardcoded" />
 
                 </RelativeLayout>
 
