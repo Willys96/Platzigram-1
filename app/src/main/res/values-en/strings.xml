@@ -4,4 +4,15 @@
     <string name="hint_username">User</string>
     <string name="title_activity_reference">Reference</string>
     <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_button_login">Login</string>
+    <string name="toolbar_tittle_createaccount">Create account</string>
+    <string name="text_button_createaccount">Join Us</string>
+    <string name="tab_search">Find</string>
+    <string name="tab_profile">I am</string>
+    <string name="tab_home">Home</string>
+    <string name="secondword_detail">Like</string>
+    <string name="hint_user">User</string>
 </resources>
