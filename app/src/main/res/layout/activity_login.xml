@@ -75,7 +75,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/text_button_login"
-                    android:theme="@style/RisedButtonDark" />
+                    android:theme="@style/RisedButtonDark"
+                    android:onClick="goProfile"/>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
