@@ -54,9 +54,9 @@ public class HomeFragment extends Fragment {
 
         ArrayList<Picture> pictures = new ArrayList<>();
 
-        pictures.add(new Picture("http://s.hswstatic.com/gif/mt-everest-tourism-171676392.jpg","Kristian Lopez","4 dias", "3"));
-        pictures.add(new Picture("http://img1.meristation.com/files/imagenes/general/tonyhawkairtime.jpg","David Lopez","5 dias", "13"));
-        pictures.add(new Picture("http://www.cancunyatesenrenta.com/lib/images/cancun-yacht-rental-4.jpg","Elizabeth Lopez","1 dias", "7"));
+        pictures.add(new Picture("http://s.hswstatic.com/gif/mt-everest-tourism-171676392.jpg","Kristian Lopez","4 dias", "3 Me gusta"));
+        pictures.add(new Picture("http://img1.meristation.com/files/imagenes/general/tonyhawkairtime.jpg","David Lopez","5 dias", "13 Me gusta"));
+        pictures.add(new Picture("http://www.cancunyatesenrenta.com/lib/images/cancun-yacht-rental-4.jpg","Elizabeth Lopez","1 dias", "7 Me gusta"));
 
         return pictures;
     }
