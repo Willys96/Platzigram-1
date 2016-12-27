@@ -5,9 +5,9 @@
     android:id="@+id/pictureCard"
     android:layout_width="match_parent"
     android:layout_height="@dimen/height_cardview"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
     cardview:cardCornerRadius="@dimen/cornerradius_cardview"
-    cardview:cardUseCompatPadding="true"
-    android:layout_marginBottom="@dimen/activity_vertical_margin">
+    cardview:cardUseCompatPadding="true">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -19,8 +19,8 @@
             android:layout_height="@dimen/height_cardview"
             android:background="@drawable/images"
             android:scaleType="centerCrop"
-            tools:ignore="ContentDescription"
-            android:transitionName="@string/transitionname_picture"/>
+            android:transitionName="@string/transitionname_picture"
+            tools:ignore="ContentDescription" />
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -2,10 +2,9 @@ package co.kr1lo.platzigram;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ImageView;
 
 import co.kr1lo.platzigram.views.ContainerActivity;
 import co.kr1lo.platzigram.views.CreateAccountActivity;
