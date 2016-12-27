@@ -1,9 +1,11 @@
 package co.kr1lo.platzigram;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 import co.kr1lo.platzigram.views.ContainerActivity;
 import co.kr1lo.platzigram.views.CreateAccountActivity;
@@ -26,6 +28,12 @@ public class LoginActivity extends AppCompatActivity {
     public void goProfile(View view) {
 
         Intent intent = new Intent(this, ContainerActivity.class);
+        startActivity(intent);
+    }
+
+    public void goWeb(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse("http://platzigram.com/"));
         startActivity(intent);
     }
 }
